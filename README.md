@@ -4,7 +4,7 @@ This package gives your Laravel app a validator for audio and video files based 
 
 ## Why this package?
 
-Because symfony’s MIME types guessing is often not reliable, especially for audio files (see https://github.com/symfony/symfony/issues/8678).
+Because Symfony’s MIME types guessing is often not reliable, especially for audio files (see https://github.com/symfony/symfony/issues/8678).
 
 ## Installation
 
