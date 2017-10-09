@@ -1,0 +1,43 @@
+{
+    "name": "typidesign/laravel-media-validator",
+    "description": "An artisan command to update json translation files.",
+    "keywords": [
+        "typidesign",
+        "laravel",
+        "media",
+        "validator",
+        "validation",
+        "audio",
+        "video",
+        "codec"
+    ],
+    "homepage": "https://github.com/typidesign/laravel-media-validator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel De Backer",
+            "email": "sdebacker@gmail.com",
+            "homepage": "https://typi.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "php-ffmpeg/php-ffmpeg": "^0.9.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Typidesign\\MediaValidator\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Typidesign\\MediaValidator\\MediaValidatorServiceProvider"
+            ]
+        }
+    }
+}
