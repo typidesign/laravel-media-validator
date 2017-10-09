@@ -1,6 +1,6 @@
 {
     "name": "typidesign/laravel-media-validator",
-    "description": "An artisan command to update json translation files.",
+    "description": "A Laravel validator for audio and video files.",
     "keywords": [
         "typidesign",
         "laravel",
