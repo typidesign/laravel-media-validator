@@ -2,7 +2,7 @@
 
 namespace Typidesign\MediaValidator\Rules;
 
-class IsVideo extends isMedia
+class IsVideo extends IsMedia
 {
     public function __construct(array $codecs)
     {
